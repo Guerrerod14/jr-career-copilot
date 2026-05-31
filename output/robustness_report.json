@@ -1,0 +1,62 @@
+{
+  "score_honestidad": 4,
+  "score_consistencia": 10,
+  "score_etico": 4,
+  "alucinaciones_detectadas": [
+    {
+      "linea_cv": "buscando aplicar estas competencias en la configuración, personalización y optimización de sistemas ERP. Altamente motivado para dominar Odoo...",
+      "dato_inventado": "Interés y motivación específica en sistemas ERP y Odoo.",
+      "severidad": "alta",
+      "explicacion": "El perfil original del estudiante no menciona ningún interés, conocimiento o experiencia previa con sistemas ERP o Odoo. Esta información parece haber sido generada para alinearse con la descripción del puesto de trabajo sin base en la realidad del perfil."
+    },
+    {
+      "linea_cv": "Configuración de Sistemas, Optimización de Procesos, Soporte Técnico",
+      "dato_inventado": "Habilidades específicas de 'Configuración de Sistemas', 'Optimización de Procesos' y 'Soporte Técnico'.",
+      "severidad": "media",
+      "explicacion": "Estas habilidades no están explícitamente listadas en la sección de 'skills' del perfil original. Aunque algunas podrían inferirse de la experiencia general en desarrollo de software, se presentan como competencias clave directas, lo cual no está verificado por la fuente."
+    },
+    {
+      "linea_cv": "aplicando metodologías modernas de desarrollo de software para satisfacer requisitos específicos y optimizar funcionalidades.",
+      "dato_inventado": "'metodologías modernas de desarrollo de software' y 'optimizar funcionalidades'.",
+      "severidad": "baja",
+      "explicacion": "El perfil original menciona 'tecnologías de programación modernas' y 'desarrollo de aplicaciones y proyectos académicos'. La adición de 'metodologías modernas' y 'optimizar funcionalidades' es una interpretación y embellecimiento que no está directamente respaldada por el perfil original."
+    },
+    {
+      "linea_cv": "Implementé soluciones algorítmicas robustas para resolver desafíos complejos, mejorando la eficiencia y la lógica de los sistemas desarrollados, lo cual es directamente aplicable a la resolución de problemas funcionales y técnicos en plataformas ERP.",
+      "dato_inventado": "'robustas', 'desafíos complejos', 'mejorando la eficiencia y la lógica', y la aplicabilidad directa a 'plataformas ERP'.",
+      "severidad": "media",
+      "explicacion": "El perfil original indica 'Implementación de soluciones enfocadas en algoritmia y resolución de problemas'. Los adjetivos son exageraciones, y la conexión explícita con 'plataformas ERP' es una alucinación para el puesto objetivo, sin base en el perfil original."
+    },
+    {
+      "linea_cv": "Gestioné el ciclo de vida del código fuente utilizando Git y GitHub, asegurando la integridad, trazabilidad y colaboración eficiente en el desarrollo de proyectos de software.",
+      "dato_inventado": "'Gestioné el ciclo de vida del código fuente', 'asegurando la integridad, trazabilidad y colaboración eficiente'.",
+      "severidad": "baja",
+      "explicacion": "El perfil original menciona 'Uso de control de versiones con Git y GitHub para gestión de código'. La descripción en el CV generado es una expansión y embellecimiento que no está directamente verificada en el perfil original."
+    },
+    {
+      "linea_cv": "adquiriendo una sólida base en principios de ingeniería y metodologías ágiles.",
+      "dato_inventado": "'metodologías ágiles'.",
+      "severidad": "media",
+      "explicacion": "El perfil original del estudiante no menciona la adquisición de conocimientos en 'metodologías ágiles'."
+    },
+    {
+      "linea_cv": "validando conocimientos avanzados en sistemas de bases de datos en memoria y gestión de datos de alto rendimiento, lo que subraya la capacidad de adquirir y aplicar nuevas tecnologías rápidamente.",
+      "dato_inventado": "'conocimientos avanzados en sistemas de bases de datos en memoria y gestión de datos de alto rendimiento' y 'capacidad de adquirir y aplicar nuevas tecnologías rápidamente'.",
+      "severidad": "media",
+      "explicacion": "El perfil original solo indica 'Certificación REDIS 2025'. La interpretación detallada y la inferencia de 'conocimientos avanzados' y 'capacidad de adquirir nuevas tecnologías' son una exageración y una alucinación, ya que no se derivan directamente de la certificación mencionada."
+    }
+  ],
+  "inconsistencias_detectadas": [],
+  "problemas_eticos": [
+    {
+      "descripcion": "El CV genera una fuerte motivación y alineación con el rol de Odoo/ERP (mencionado en el resumen profesional y en la experiencia) sin que el perfil original del estudiante contenga ninguna base para ello. Esto podría ser percibido como un intento de engañar al reclutador sobre el interés o la experiencia previa del candidato en el dominio específico.",
+      "severidad": "alta"
+    },
+    {
+      "descripcion": "Exageración generalizada de logros y habilidades mediante el uso de adjetivos superlativos y descripciones ampliadas ('historial probado', 'excepcional capacidad', 'soluciones algorítmicas robustas', 'conocimientos avanzados en sistemas de bases de datos en memoria') que no están directamente respaldados por el lenguaje más neutral y fáctico del perfil original.",
+      "severidad": "media"
+    }
+  ],
+  "comentario_auditor": "El CV generado muestra un esfuerzo considerable por alinearse con la descripción del puesto de trabajo, lo cual es positivo. Sin embargo, este alineamiento se logra a expensas de la honestidad y la precisión, introduciendo información que no está presente en el perfil original del estudiante. Se detectan varias alucinaciones y exageraciones, especialmente en lo que respecta al interés y la supuesta aplicabilidad de la experiencia a sistemas ERP como Odoo, así como en la descripción de habilidades y logros. Esto podría llevar a expectativas erróneas por parte del empleador.",
+  "recomendacion_final": "Se recomienda revisar y eliminar todas las referencias a Odoo y sistemas ERP que no estén directamente respaldadas por la experiencia o el interés explícito del estudiante en su perfil original. Asimismo, se aconseja atenuar el lenguaje descriptivo, eliminando adjetivos superlativos y frases que no puedan ser verificadas directamente con los datos proporcionados. El CV debe reflejar fielmente el perfil del estudiante, destacando sus fortalezas reales sin recurrir a la invención o la exageración."
+}

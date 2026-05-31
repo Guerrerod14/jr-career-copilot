@@ -22,8 +22,3 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
-
-# Archivos de salida generados localmente por los estudiantes
-output/*
-# Mantener el directorio output pero no sus archivos generados
-!output/.gitkeep
