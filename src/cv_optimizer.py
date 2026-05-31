@@ -25,6 +25,8 @@ from renderers import (
     generate_html
 )
 from optimizer import optimize_cv
+from services.mock_interview import MockInterviewService
+from services.robustness_judge import RobustnessJudgeService
 
 def parse_arguments() -> argparse.Namespace:
     """
@@ -62,20 +64,70 @@ def parse_arguments() -> argparse.Namespace:
         default="templates/cv_template.html",
         help="Ruta a la plantilla HTML Jinja2 (por defecto: templates/cv_template.html)."
     )
+    parser.add_argument(
+        "--mock-interview",
+        action="store_true",
+        help="Ejecuta una entrevista técnica simulada interactiva (mock interview) en lugar de optimizar el CV."
+    )
+    parser.add_argument(
+        "--robustness",
+        action="store_true",
+        help="Ejecuta la auditoría de robustez del CV generado contra el perfil original."
+    )
+    parser.add_argument(
+        "--interview-output",
+        default="output/interview_transcript.md",
+        help="Ruta de salida de la transcripción de mock interview (por defecto: output/interview_transcript.md)."
+    )
+    parser.add_argument(
+        "--robustness-output",
+        default="output/robustness_report.json",
+        help="Ruta de salida del informe de robustez JSON (por defecto: output/robustness_report.json)."
+    )
+    parser.add_argument(
+        "--cv-input",
+        default="output/optimized_cv.md",
+        help="Ruta al CV generado a auditar con --robustness (por defecto: output/optimized_cv.md)."
+    )
     return parser.parse_args()
 
 def main() -> None:
     """
     Función de ejecución principal del optimizador.
     """
+    args = parse_arguments()
+
+    if args.mock_interview and args.robustness:
+        print("\n[ERROR] No puedes usar --mock-interview y --robustness al mismo tiempo.")
+        print("Ejecuta cada funcionalidad por separado.")
+        sys.exit(1)
+
+    if args.mock_interview:
+        interview_service = MockInterviewService(
+            profile_path=args.profile,
+            job_path=args.job,
+            lang=args.lang,
+            transcript_path=args.interview_output,
+        )
+        interview_service.run_interactive()
+        return
+
+    if args.robustness:
+        judge_service = RobustnessJudgeService(
+            profile_path=args.profile,
+            job_path=args.job,
+            generated_cv_path=args.cv_input,
+            report_path=args.robustness_output,
+            lang=args.lang,
+        )
+        judge_service.run_validation()
+        return
+
     print("=" * 60)
     print("      OPTIMIZADOR DE CV PARA INGENIEROS JUNIOR / TRAINEES   ")
     print("=" * 60)
     
-    # 1. Analizar argumentos de consola
-    args = parse_arguments()
-    
-    # 2. Cargar perfil de ingeniero junior
+    # 1. Cargar perfil de ingeniero junior
     print(f"[INFO] Cargando perfil del ingeniero junior desde: '{args.profile}'...")
     profile = load_profile(args.profile)
     
