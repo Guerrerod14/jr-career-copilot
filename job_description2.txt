@@ -1,0 +1,33 @@
+Java Developer – Remote
+
+Ubicación: Remoto (Colombia)
+Compañía: Hired
+
+Sobre el rol:
+Buscamos ingenieros de software en Latinoamérica para participar en un programa remoto de entrenamiento de Inteligencia Artificial. El profesional trabajará evaluando código generado por modelos de IA, calificando respuestas técnicas y creando desafíos de programación que contribuyan a mejorar el rendimiento de los modelos. No se requiere experiencia previa en IA.
+
+Requisitos mínimos:
+
+* Experiencia en ingeniería de software (junior, semi senior o senior).
+* Dominio de al menos uno de los siguientes lenguajes: Python, Java, JavaScript, TypeScript, C++, Swift o Rust.
+* Atención al detalle y capacidad analítica.
+* Habilidades sólidas de resolución de problemas.
+* Experiencia o conocimientos en desarrollo backend, frontend, full stack o desarrollo móvil.
+* Autorización legal para trabajar en Colombia o alguno de los países elegibles de Latinoamérica.
+
+Responsabilidades clave:
+
+* Revisar y evaluar código generado por modelos de Inteligencia Artificial.
+* Calificar respuestas generadas por IA en términos de precisión, calidad y cumplimiento de instrucciones.
+* Diseñar preguntas de ciencias de la computación y desafíos de programación para evaluar capacidades de IA.
+* Identificar errores, inconsistencias y problemas de calidad en código generado automáticamente.
+* Proporcionar retroalimentación clara, estructurada y constructiva para mejorar las respuestas de IA.
+* Cumplir con estándares de calidad, lineamientos del proyecto y requisitos de confidencialidad.
+
+Condiciones laborales:
+
+* Trabajo completamente remoto y asincrónico.
+* Horario flexible de hasta 40 horas semanales según disponibilidad de proyectos.
+* Pago de hasta 34 USD por hora más incentivos por desempeño.
+* Pagos semanales mediante plataformas autorizadas.
+* Acceso gratuito a herramientas de Inteligencia Artificial incluidas en el programa.

@@ -1,0 +1,41 @@
+Junior Java Engineer
+
+Ubicación: Medellín, Antioquia, Colombia (Remoto)
+Compañía: N-iX
+
+Sobre el rol:
+Buscamos un Ingeniero Java Junior para unirse al equipo de ingeniería de una plataforma estadounidense de trading de activos digitales y criptomonedas. Trabajarás en el desarrollo de servicios backend y APIs, colaborando con ingenieros experimentados mientras adquieres experiencia práctica en sistemas reales, escalabilidad y seguridad.
+
+Requisitos mínimos:
+
+* Estudiante o graduado de Ingeniería de Sistemas, Ciencias de la Computación o carrera afín.
+* Conocimientos sólidos de Java y al menos 6 meses de experiencia práctica.
+* Experiencia desarrollando y consumiendo APIs RESTful.
+* Conocimientos de bases de datos relacionales y consultas SQL (SELECT, JOIN, WHERE, GROUP BY).
+* Comprensión básica de bases de datos SQL y NoSQL.
+* Conocimientos de estructuras de datos y algoritmos.
+* Experiencia utilizando Git en entornos colaborativos.
+* Experiencia escribiendo pruebas unitarias con herramientas como JUnit o equivalentes.
+* Capacidad para explicar procesos de desarrollo, pruebas y despliegue de software.
+* Nivel de inglés intermedio alto o superior.
+* Interés en criptomonedas, blockchain o tecnologías Web3.
+
+Responsabilidades clave:
+
+* Apoyar el desarrollo de servicios backend y APIs bajo la supervisión de ingenieros senior.
+* Escribir código limpio, mantenible y bien documentado.
+* Participar en tareas de depuración, pruebas y resolución de problemas.
+* Colaborar en proyectos junto a equipos de Frontend, Producto y DevOps.
+* Participar en revisiones de código y aplicar retroalimentación técnica.
+* Implementar y mantener pruebas unitarias.
+* Documentar procesos técnicos y desarrollos realizados.
+
+Conocimientos deseables:
+
+* Linux y línea de comandos.
+* Docker.
+* Sistemas de mensajería como Kafka o RabbitMQ.
+* Plataformas cloud como AWS o GCP.
+* Participación en hackathones.
+* Contribuciones a proyectos open source.
+* Portafolio activo en GitHub.

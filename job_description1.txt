@@ -1,0 +1,27 @@
+Ingeniero de Sistemas (Medio Tiempo)
+
+Ubicación: Bogotá, Distrito Capital, Colombia (Presencial)
+Compañía: Andres Chamorro Iluminacion S.A.S / Chamorro Group
+
+Sobre el rol:
+Buscamos un Ingeniero de Sistemas o profesional afín con experiencia en Odoo para apoyar la implementación, ajuste, personalización y soporte de la plataforma ERP de la compañía. La persona trabajará medio tiempo acompañando al equipo en la adopción del sistema y proponiendo mejoras que optimicen los procesos del negocio.
+
+Requisitos mínimos:
+
+* Ingeniero/a de Sistemas, consultor/a Odoo, desarrollador/a o profesional afín.
+* Experiencia comprobable trabajando con Odoo.
+* Conocimiento en Odoo Studio.
+* Capacidad para personalizar vistas, campos, reportes y flujos de trabajo.
+* Habilidad para resolver problemas funcionales y técnicos.
+* Buena comunicación y orientación al usuario.
+* Disponibilidad para trabajar medio tiempo.
+* Preferiblemente ubicado en Bogotá o con disponibilidad para reuniones presenciales ocasionales.
+
+Responsabilidades clave:
+
+* Configurar y ajustar módulos de Odoo según las necesidades del negocio.
+* Administrar y personalizar funcionalidades mediante Odoo Studio.
+* Apoyar procesos de cotización, ventas, facturación, inventario, alquileres y CRM.
+* Resolver dudas funcionales y técnicas relacionadas con la plataforma.
+* Capacitar y acompañar a los usuarios en el uso adecuado del sistema.
+* Proponer mejoras, automatizaciones y buenas prácticas para optimizar los procesos internos.
